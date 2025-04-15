@@ -1,13 +1,52 @@
+@import "tailwindcss";
+
+.edu-au-vic-wa-nt-arrows {
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    font-weight: 60px;
+    font-style: normal;
+    
+   
+  }
+  .silkscreen-regular {
+        font-family: "Silkscreen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .silkscreen-bold {
+        font-family: "Silkscreen", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+
 body{
+    
     background-color: #4B4B4B;
+    margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+}
+.title{
+    font-size: 50px;
+    color: #3e3e3e;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Silkscreen", sans-serif;
+
 }
 #form {
+    border-radius:30px ;
+   
     background-color: white;
     margin: 0 auto;
     width: 500px;
     height: 600px;
-    -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-	        animation: shadow-pop-br 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.490, 0.000, 0.795, 0.775) both;
+	        animation: shadow-pop-br 0.3s cubic-bezier(0.490, 0.000, 0.795, 0.775) both ;
 
 }
 @-webkit-keyframes shadow-pop-br {
@@ -18,10 +57,10 @@ body{
               transform: translateX(0) translateY(0);
     }
     100% {
-      -webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
-              box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
-      -webkit-transform: translateX(-8px) translateY(-8px);
-              transform: translateX(-8px) translateY(-8px);
+      -webkit-box-shadow: 2px 2px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+              box-shadow: 2px 2px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+      -webkit-transform: translateX(-9px) translateY(-9px);
+              transform: translateX(-9px) translateY(-9px);
     }
   }
   @keyframes shadow-pop-br {
@@ -34,8 +73,8 @@ body{
     100% {
       -webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
               box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
-      -webkit-transform: translateX(-8px) translateY(-8px);
-              transform: translateX(-8px) translateY(-8px);
+      -webkit-transform: translateX(-9px) translateY(-9px);
+              transform: translateX(-9px) translateY(-9px);
     }
   }
   
